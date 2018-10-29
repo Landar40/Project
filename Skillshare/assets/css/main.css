@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("../images/header2.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+}
+footer {
+    width: 100%;
+    height: 80px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.header-title {
+    color: #E4F6F8;
+    font-size: 3em;
+    text-transform: uppercase;
+    background-color: #F68B1F;
+    width: 560px;
+    margin: auto;
+}
+.title-wrapper {
+    padding-top: 150px;
+    text-align: center;
+
+}
+.nav {
+    background-color:#F6a122;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    margin: auto;
+    width: 100%;
+    max-width: 960px;
+}
+.buttons {
+    max-width: 600px;
+    float: right;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    display: inline-block;  
+}
+.buttons > li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:70px;
+    text-decoration: none;
+    color: #ffffff;     
+}
+.buttons>li:hover {
+    color: #E4F6F8;
+    background-color: #F68B1F;
+    text-decoration: none;
+}
+.logo {
+    max-width: 300px;
+    float: left
+}
+.footer-menu {
+    float: right;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    background-color:#F6a122;
+    width: 100%;
+}
+.footer-menu > li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-menu>li:hover {
+    color: #E4F6F8;
+    background-color: #F68B1F;
+    text-decoration: none;
+}
+.your-plan-holder {
+    background-color: #62C2CC;
+    height: 600px;
+}
+.your-plan {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    color: #E4F6F8;
+    padding-top: 50px;
+}
+.plan-calendar {
+    background-color: #F6a122;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    width: 137px;
+}
+tr:nth-child(even) {
+    background-color: #F68B1F;
+}
+.options-holder {
+    background-color: #F68B1F;
+    height: 600px;
+}
+.options {
+    max-width: 960px;
+    margin: auto;
+    color: #E4F6F8;
+    text-align: center;
+    padding-top: 50px;
+}
+.plan-button {
+    background-color: #F68B1F;
+    text-transform: uppercase;
+    font-size: 40px;
+    border: 5px, solid, #E4F6F8;
+}
+.plan-button > a {
+    color: #E4F6F8;
+    background-color: #62C2CC;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.plan-button > a:hover {
+   background-color: aqua;
+   color: #F68B1F; 
+}
+.about-holder {
+    background-color: #62C2CC;
+    height: 600px;
+}
+.about {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    color: #E4F6F8;
+    padding-top: 50px; 
+}
+.plate {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recipes-holder {
+    background-color: #62C2CC;
+    height: 600px;
+}
+.recipes {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    color: #E4F6F8;
+    padding-top: 50px; 
+}
+.calendar-holder{
+    background-color: #62C2CC;
+    height: 600px;
+}
+.calendar {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    color: #E4F6F8;
+    padding-top: 50px; 
+}
