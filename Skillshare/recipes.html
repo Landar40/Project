@@ -30,7 +30,37 @@
     </header>
     <section class="recipes-holder">
         <div class="recipes">
+            <h3>Add a Recipe</h3>
+            <p>Add your ingredients and messurements bellow. When you are finished, press submit.</p>
+            <form action="/" class="recipe-form" method="POST" id="recipe-form">
+                <div class="add-ingredient">
+                    <label for="ingredient">Ingredient</label>
+                    <input type="text" name="ingredient-added" id="ingredient">
+                    <label for="amount">Amount</label>
+                    <input type="text" name="amount-added" id="amount">
+                    <label for="unit">Unit</label>
+                    <select name="unit-added" id="unit">
+                        <option value="oz">Ounces</option>
+                        <option value="lb">Pounds</option>
+                        <option value="tsp">Teaspoons</option>
+                        <option value="tbsp">Tablespoons</option>.
+                        <option value="floz">Fluid Ounces</option>
+                        <option value="c">Cups</option>
+                        <option value="pt">Pints</option>
+                        <option value="qt">Quarts</option>
+                        <option value="gal">Gallons</option>
+                    </select>
+                    <button type="reset">Add</button>
+                </div>
+                <div class="recipe-area">
+                    <textarea name="full-recipe" id="full-recipe" cols="100" rows="10" form="recipe-form" readonly wrap="hard">
 
+                    </textarea>
+                </div>
+                <div class="recipe-button">
+                        <p>Submit Recipe</p>
+                    </div>
+            </form>
         </div>
     </section>
     <footer>
